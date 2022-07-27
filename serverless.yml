@@ -115,4 +115,3 @@ functions:
 
 plugins:
   - serverless-pseudo-parameters
-  - serverless-offline

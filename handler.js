@@ -1,7 +1,9 @@
 'use strict';
 
+
+const { v4: uuidv4 } = require('uuid');
+
 module.exports.hello = async (event) => {
-    const { v4: uuidv4 } = require('uuid');
   return {
     statusCode: 200,
     body: JSON.stringify(
